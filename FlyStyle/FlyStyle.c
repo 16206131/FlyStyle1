@@ -105,11 +105,11 @@ static void LED_Thread1(void const *argument)
 	for (;;)
 	{
 		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
-		osDelay(2000);
+		osDelay(6000);
 		
 		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
 		osThreadSuspend(LEDThread2Handle);
-		osDelay(2000);
+		osDelay(6000);
 		
 		osThreadResume(LEDThread2Handle);
 	}

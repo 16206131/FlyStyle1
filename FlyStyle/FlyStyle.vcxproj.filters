@@ -37,8 +37,13 @@
     <Filter Include="VisualGDB settings">
       <UniqueIdentifier>{d71f04f8-b49e-40ce-a649-b31ece26af02}</UniqueIdentifier>
     </Filter>
+    <Filter Include="szg">
+      <UniqueIdentifier>{cde94607-0a9f-40bb-bced-4a5f5e2677c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FlyStyle.c">
       <Filter>Source files</Filter>
